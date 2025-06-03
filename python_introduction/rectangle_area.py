@@ -1,4 +1,4 @@
-L = 10
-W = 5
-area = L * W
+length = 10
+width = 5
+area = length * width
 print (area)
