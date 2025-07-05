@@ -1,10 +1,10 @@
-weather_input= input("what is the weather like today? (sunny/rainy/cold): ").strip().lower()
-if weather_input == "sunny":
+weather= input("what's the weather like today? (sunny/rainy/cold): ").strip().lower()
+if weather == "sunny":
     print("Wear a tshirt and sunglasses.")
-elif weather_input == "rainy":
-    print("Dont forget your Umbrella and rain coat.")
-elif weather_input == "cold":
-    print("Make sure to wear a warm coat and scarf.")
+elif weather == "rainy":
+    print("Dont forget your Umbrella and a rain coat.")
+elif weather == "cold":
+    print("Make sure to wear a warm coat and a scarf.")
 else: 
     print("Sorry! I dont have recommendations for this weather.")
 

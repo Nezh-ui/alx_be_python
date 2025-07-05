@@ -13,7 +13,7 @@ match operation:
         print(f"The result is {result}")
     case "/":
         if num2 == 0:
-            print ("Error: Division by zero is not allowed.")
+            print (f"Cannot divide by 0.")
         else :
             result= num1 / num2
             print(f"The result is {result}")
